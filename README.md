@@ -1,14 +1,73 @@
-# SoleVerse
+# SoleVerse - Modern Shoe E-commerce Platform
 
-## React + Vite
+## Overview
+SoleVerse is a modern e-commerce platform built for shoe enthusiasts. The platform offers a seamless shopping experience with features like product browsing, cart management, and secure checkout.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
 
-Currently, two official plugins are available:
+### Frontend
+- React.js with Vite for fast development and optimized builds
+- Modern UI components for responsive design
+- Cart management system
+- Product catalog with detailed views
+- Checkout process integration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Backend
+- Node.js server
+- Express.js framework
+- MongoDB for database management
+- RESTful API architecture
+- Customer data management
 
-## Expanding the ESLint configuration
+## Features
+- Responsive product catalog
+- Shopping cart functionality
+- User authentication
+- Secure checkout process
+- Product search and filtering
+- Mobile-responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+```
+├── backend/           # Backend server code
+│   ├── models/        # Database models
+│   ├── routes/        # API routes
+│   └── server.js      # Main server file
+├── src/
+│   ├── components/    # React components
+│   ├── pages/         # Page components
+│   ├── assets/        # Static assets
+│   └── config/        # Configuration files
+└── public/           # Public assets
+```
+
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install        # For frontend dependencies
+   cd backend
+   npm install        # For backend dependencies
+   ```
+3. Set up environment variables
+4. Start the development servers:
+   ```bash
+   npm run dev        # Frontend development server
+   cd backend
+   npm start          # Backend server
+   ```
+
+## Screenshots
+![SoleVerse Homepage](./src/assets/Home.jpg)
+
+## Development Tools
+- Vite for frontend development
+- ESLint for code quality
+- Git for version control
+- npm for package management
+
+## Contributors
+- Ansh358 (Project Lead)
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
