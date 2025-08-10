@@ -1,5 +1,8 @@
 # SoleVerse - Modern Shoe E-commerce Platform
 
+# Netlify - Link  
+[SoleVerse.com](https://amazing-centaur-cd0415.netlify.app)
+
 ## Overview
 SoleVerse is a modern e-commerce platform built for shoe enthusiasts. The platform offers a seamless shopping experience with features like product browsing, cart management, and secure checkout.
 
